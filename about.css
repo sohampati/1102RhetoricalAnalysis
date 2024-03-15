@@ -1,0 +1,81 @@
+* {
+    background-color: black;
+    font-family: Helvetica;
+    color: white;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+.ab {
+    display: flex;
+    flex-direction: row;
+ 
+}
+.im {
+    margin-left: 300px;
+    margin-top: 20px;
+}
+.socials {
+    display: flex;
+    flex-direction: row;
+}
+
+.line {
+    border-color: #404040;
+    width: 120%;
+}
+
+.navbar {
+    display: grid;
+    grid-template-columns: auto 1fr;  /* Adjust column widths if needed */
+    background-color: black;
+    margin-top: -10px;
+    overflow: hidden;
+    margin-left: -20px;
+    margin-right: -20px;
+    border-bottom-color: gray;
+  }
+  
+  .cnnimg {
+    grid-column: 1; /* Position logo in the first column */
+    width: 80px;
+    height: 40px;
+    justify-content: center;
+    margin-top: 8px;
+  }
+  
+  nav {
+    grid-column: 2; /* Position navigation links in the second column */
+    display: flex;
+    justify-content: space-between; /* Distribute links evenly */
+  }
+  
+  nav ul {
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  nav ul li {
+    margin: 0 10px; /* Add horizontal spacing between links */
+  }
+  
+  nav ul li a {
+    color: white; /* Adjust link color */
+    text-decoration: none; /* Remove underline */
+    font-family: Helvetica;
+  }
+  
+  nav ul li a:hover {
+    color: red; /* Subtle hover effect using CNN's red color */
+  }
+  
+  .secondary-links {
+    display: flex;
+    flex-direction: row;
+    margin-right: 10px;
+  }
+  

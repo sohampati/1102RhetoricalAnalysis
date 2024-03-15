@@ -1,0 +1,62 @@
+* {
+    font-family: Helvetica;
+}
+
+.info {
+    display: flex;
+    
+}
+.every {
+    margin-left: 20px;
+}
+
+
+.navbar {
+    display: grid;
+    grid-template-columns: auto 1fr;  /* Adjust column widths if needed */
+    background-color: black;
+    margin-top: -10px;
+    overflow: hidden;
+    margin-left: -20px;
+    margin-right: -20px;
+  }
+  
+  .cnnimg {
+    grid-column: 1; /* Position logo in the first column */
+    width: 80px;
+    height: 40px;
+    justify-content: center;
+    margin-top: 8px;
+  }
+  
+  nav {
+    grid-column: 2; /* Position navigation links in the second column */
+    display: flex;
+    justify-content: space-between; /* Distribute links evenly */
+  }
+  
+  nav ul {
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  nav ul li {
+    margin: 0 10px; /* Add horizontal spacing between links */
+  }
+  
+  nav ul li a {
+    color: white; /* Adjust link color */
+    text-decoration: none; /* Remove underline */
+    font-family: Helvetica;
+  }
+  
+  nav ul li a:hover {
+    color: red; /* Subtle hover effect using CNN's red color */
+  }
+  
+  .secondary-links {
+    display: flex;
+    flex-direction: row;
+    margin-right: 10px;
+  }
+  
